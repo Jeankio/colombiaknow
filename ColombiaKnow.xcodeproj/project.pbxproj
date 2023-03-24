@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		C00057EF299445C50018CF8C /* Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00057EE299445C50018CF8C /* Code_HistoryApp.swift */; };
-		C00057F1299445C50018CF8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00057F0299445C50018CF8C /* ContentView.swift */; };
+		C00057F1299445C50018CF8C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00057F0299445C50018CF8C /* GameView.swift */; };
 		C00057F3299445CD0018CF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00057F2299445CD0018CF8C /* Assets.xcassets */; };
 		C00057F6299445CD0018CF8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00057F5299445CD0018CF8C /* Preview Assets.xcassets */; };
+		C02F75F929CCC5BD00020B31 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F75F829CCC5BD00020B31 /* GameViewModel.swift */; };
+		C02F75FB29CCCCE100020B31 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F75FA29CCCCE100020B31 /* QuestionView.swift */; };
+		C02F75FD29CE038B00020B31 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F75FC29CE038B00020B31 /* ScoreView.swift */; };
+		C02F75FF29CE08D700020B31 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F75FE29CE08D700020B31 /* ScoreViewModel.swift */; };
+		C05D32E029B29636009CECD6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D32DF29B29636009CECD6 /* Game.swift */; };
+		C0D0ED2F29AE8F4E00D6A121 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0ED2E29AE8F4E00D6A121 /* Question.swift */; };
+		C0D0ED3129AE97FA00D6A121 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D0ED3029AE97FA00D6A121 /* ChoiceTextView.swift */; };
+		C0DC230A29B92AE8004B58CA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DC230929B92AE8004B58CA /* WelcomeView.swift */; };
+		C0DC234C29BCDED0004B58CA /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DC234B29BCDED0004B58CA /* GameColor.swift */; };
+		C0DC234E29BCE2AF004B58CA /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DC234D29BCE2AF004B58CA /* BottomTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C00057EB299445C50018CF8C /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00057EB299445C50018CF8C /* ColombiaKnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColombiaKnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00057EE299445C50018CF8C /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
-		C00057F0299445C50018CF8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C00057F0299445C50018CF8C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		C00057F2299445CD0018CF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C00057F5299445CD0018CF8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C02F75F829CCC5BD00020B31 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		C02F75FA29CCCCE100020B31 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		C02F75FC29CE038B00020B31 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		C02F75FE29CE08D700020B31 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		C05D32DF29B29636009CECD6 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C0D0ED2E29AE8F4E00D6A121 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C0D0ED3029AE97FA00D6A121 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		C0DC230929B92AE8004B58CA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C0DC234B29BCDED0004B58CA /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		C0DC234D29BCE2AF004B58CA /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +55,7 @@
 		C00057E2299445C40018CF8C = {
 			isa = PBXGroup;
 			children = (
-				C00057ED299445C50018CF8C /* Code History */,
+				C00057ED299445C50018CF8C /* ColombiaKnow */,
 				C00057EC299445C50018CF8C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +63,22 @@
 		C00057EC299445C50018CF8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C00057EB299445C50018CF8C /* Code History.app */,
+				C00057EB299445C50018CF8C /* ColombiaKnow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C00057ED299445C50018CF8C /* Code History */ = {
+		C00057ED299445C50018CF8C /* ColombiaKnow */ = {
 			isa = PBXGroup;
 			children = (
+				C05D32E129B296BE009CECD6 /* Model */,
+				C05D32E229B29761009CECD6 /* Views */,
+				C02F75F729CCC53100020B31 /* ViewModels */,
 				C00057EE299445C50018CF8C /* Code_HistoryApp.swift */,
-				C00057F0299445C50018CF8C /* ContentView.swift */,
 				C00057F2299445CD0018CF8C /* Assets.xcassets */,
 				C00057F4299445CD0018CF8C /* Preview Content */,
 			);
-			path = "Code History";
+			path = ColombiaKnow;
 			sourceTree = "<group>";
 		};
 		C00057F4299445CD0018CF8C /* Preview Content */ = {
@@ -67,12 +89,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C02F75F729CCC53100020B31 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C02F75F829CCC5BD00020B31 /* GameViewModel.swift */,
+				C02F75FE29CE08D700020B31 /* ScoreViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C05D32E129B296BE009CECD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0D0ED2E29AE8F4E00D6A121 /* Question.swift */,
+				C05D32DF29B29636009CECD6 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C05D32E229B29761009CECD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0DC230929B92AE8004B58CA /* WelcomeView.swift */,
+				C00057F0299445C50018CF8C /* GameView.swift */,
+				C0D0ED3029AE97FA00D6A121 /* ChoiceTextView.swift */,
+				C0DC234B29BCDED0004B58CA /* GameColor.swift */,
+				C0DC234D29BCE2AF004B58CA /* BottomTextView.swift */,
+				C02F75FA29CCCCE100020B31 /* QuestionView.swift */,
+				C02F75FC29CE038B00020B31 /* ScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C00057EA299445C50018CF8C /* Code History */ = {
+		C00057EA299445C50018CF8C /* ColombiaKnow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C00057F9299445CD0018CF8C /* Build configuration list for PBXNativeTarget "Code History" */;
+			buildConfigurationList = C00057F9299445CD0018CF8C /* Build configuration list for PBXNativeTarget "ColombiaKnow" */;
 			buildPhases = (
 				C00057E7299445C50018CF8C /* Sources */,
 				C00057E8299445C50018CF8C /* Frameworks */,
@@ -82,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = "Code History";
+			name = ColombiaKnow;
 			productName = "Code History";
-			productReference = C00057EB299445C50018CF8C /* Code History.app */;
+			productReference = C00057EB299445C50018CF8C /* ColombiaKnow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C00057E6299445C40018CF8C /* Build configuration list for PBXProject "Code History" */;
+			buildConfigurationList = C00057E6299445C40018CF8C /* Build configuration list for PBXProject "ColombiaKnow" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C00057EA299445C50018CF8C /* Code History */,
+				C00057EA299445C50018CF8C /* ColombiaKnow */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00057F1299445C50018CF8C /* ContentView.swift in Sources */,
+				C02F75FB29CCCCE100020B31 /* QuestionView.swift in Sources */,
+				C02F75F929CCC5BD00020B31 /* GameViewModel.swift in Sources */,
+				C0D0ED2F29AE8F4E00D6A121 /* Question.swift in Sources */,
+				C02F75FF29CE08D700020B31 /* ScoreViewModel.swift in Sources */,
+				C0DC230A29B92AE8004B58CA /* WelcomeView.swift in Sources */,
+				C05D32E029B29636009CECD6 /* Game.swift in Sources */,
+				C00057F1299445C50018CF8C /* GameView.swift in Sources */,
+				C0DC234E29BCE2AF004B58CA /* BottomTextView.swift in Sources */,
+				C02F75FD29CE038B00020B31 /* ScoreView.swift in Sources */,
+				C0DC234C29BCDED0004B58CA /* GameColor.swift in Sources */,
+				C0D0ED3129AE97FA00D6A121 /* ChoiceTextView.swift in Sources */,
 				C00057EF299445C50018CF8C /* Code_HistoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +330,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Code History/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ColombiaKnow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +358,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Code History/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ColombiaKnow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -318,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C00057E6299445C40018CF8C /* Build configuration list for PBXProject "Code History" */ = {
+		C00057E6299445C40018CF8C /* Build configuration list for PBXProject "ColombiaKnow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C00057F7299445CD0018CF8C /* Debug */,
@@ -327,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C00057F9299445CD0018CF8C /* Build configuration list for PBXNativeTarget "Code History" */ = {
+		C00057F9299445CD0018CF8C /* Build configuration list for PBXNativeTarget "ColombiaKnow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C00057FA299445CD0018CF8C /* Debug */,

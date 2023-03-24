@@ -11,7 +11,8 @@ import SwiftUI
 struct Code_HistoryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //Pone la welconme view para que sea la primera pantalla 
+            WelcomeView()
         }
     }
 }
